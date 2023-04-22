@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="robots" content="index, follow" />
+    <meta name="google" content="notranslate" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="" />
+
+    <title>SAAS | Каталог</title>
+  </head>
+  <body>
+    <header class="col-12 bg-white p0 pf zi10">
+      <div class="row container sm-pl32 sm-pr44 lg-pr0 lg-pl0 justify-content-between pt10 sm-pt20 lg-pt40 pb10 sm-pb20 lg-pb40 align-items-center">
+        <img class="mxw-100 lg-mxw-246" src="assets/images/logo.svg" alt="" />
+        <nav class="header__nav sm-ps sm-db dn pa">
+          <ul class="header__nav__ul row gap-90">
+            <li><a href="index.html" class="fs-18 lh22 fw-400">Главная</a></li>
+            <li><a href="categories.html" class="fs-18 lh22 fw-600">Категории</a></li>
+            <li><a href="top.html" class="fs-18 lh22 fw-400">Топы</a></li>
+          </ul>
+        </nav>
+        <div class="df gap-32 align-items-center">
+          <a href="services.html" class="header__button dn sm-db fs16 lh-19 pt12 lg-pr40 pr32 pb12 lg-pl40 pl32 br-15 bg-blue-6 br-c-blue hc-blue-6 hbg-white focus-bg-blue-6 focus-c-white-2 focus-box-shadow-blue transition-color transition-bg br-c-blue b-2 c-white-2 fw-600">Добавить сервис</a>
+          <div class="df h-20 justify-content-center align-items-center sm-dn db" id="headerBurger"><button class="burger pr b-0"></button></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="col-12 mnh-343 bg-grey-6 first-block">
+      <div class="row fld-c align-items-start container pr0 pl0 pr pt32 sm-pt45 lg-pt80 pb0 sm-pb72 lg-pb80">
+        <h1 class="fw-600 c-white-2 fs18 sm-fs32 pb8 sm-pb16 lg-pb24 db tal mxw-600">СЕРВИСЫ</h1>
+        <h3 class="c-white-2 fs16 sm-fs18 lg-fs24 fw-600 tal sm-pb8 lg-pb16 db mxw-600">Онлайн-сервисы для монетизации приложений</h3>
+        <p class="fs18 lg-fs20 c-white-2 fw-400 mxw-600 tal dn sm-db">Рейтинг всех онлайн-сервисов для монетизации приложений с рейтингом, отзывами и детальным описанием сервисов 2022 года.</p>
+
+        <picture class="pa right-0 top-5-procent dn sm-db h-auto sm-mxw-240 lg-mxw-371">
+          <source srcset="assets/images/services-page/intro.webp" type="image/webp" />
+          <img src="assets/images/services-page/intro.png" alt="" />
+        </picture>
+      </div>
+      <div class="pt33 row justify-content-center sm-dn df">
+        <picture class="pr left-0 bottom-0">
+          <source srcset="assets/images/index-intro/left.webp" type="image/webp" />
+          <img src="assets/images/index-intro/left.png" alt="" />
+        </picture>
+      </div>
+    </section>
+
+    <section class="col-12 container pr20 pl20 lg-pr0 lg-pl0 pt32 pb88 sm-pb100 lg-pb150 df align-items-start justify-content-between lg-gap-50">
+      <aside class="services__aside mxw-265 dn md-db col-md-3 p16 pb24 br-10 b-1 br-c-blue">
+        <span class="fs14 pb12 db fw-500">Выбрать категорию</span>
+
+        <div class="pr after-array pb15 hover-transform-array transition-transform-after">
+          <select name="category" id="categorySelect" class="focus-outline-none appearance-none fs16 fw-400 pt12 pb12 pl16 pr16 br-10 br-c-blue b-1 db col-12">
+            <option disabled selected class="dn">Выбрать</option>
+            <option value="safety">Безопасность</option>
+            <option value="seo">SEO</option>
+            <option value="analytics">Аналитика</option>
+            <option value="business-planning">Бизнес-планирование</option>
+          </select>
+        </div>
+
+        <div class="pt15 pb15">
+          <span class="fs15 fw-500 pb12">Оплата</span>
+          <label class="df gap-4 align-items-center pb12"
+            ><input type="checkbox" name="payment for services" class="dn" /><span><div></div></span><span class="fs16 fw-400">Оплата за указание услуг</span></label
+          >
+          <label class="df gap-4 align-items-center pb12"
+            ><input type="checkbox" name="payment for services" class="dn" /><span><div></div></span><span class="fs16 fw-400">Оплата по подписке</span></label
+          >
+          <label class="df gap-4 align-items-center"
+            ><input type="checkbox" name="payment for services" class="dn" /><span><div></div></span><span class="fs16 fw-400">Пробный период</span></label
+          >
+        </div>
+        <div class="pt15 pb15">
+          <span class="fs15 fw-500 pb12">Языки</span>
+          <label class="df gap-4 align-items-center pb12"
+            ><input type="checkbox" name="payment for services" class="dn" /><span><div></div></span><span class="fs16 fw-400">Есть русская версия</span></label
+          >
+          <label class="df gap-4 align-items-center pb12"
+            ><input type="checkbox" name="payment for services" class="dn" /><span><div></div></span><span class="fs16 fw-400">Есть английская версия</span></label
+          >
+        </div>
+        <div class="pt15 pb28">
+          <span class="fs15 fw-500 pb12">Платформа</span>
+          <label class="df gap-4 align-items-center pb12"
+            ><input type="checkbox" name="payment for services" class="dn" /><span><div></div></span><span class="fs16 fw-400">Веб-приложение</span></label
+          >
+          <label class="df gap-4 align-items-center pb12"
+            ><input type="checkbox" name="payment for services" class="dn" /><span><div></div></span><span class="fs16 fw-400">Приложение Android</span></label
+          >
+          <label class="df gap-4 align-items-center"
+            ><input type="checkbox" name="payment for services" class="dn" /><span><div></div></span><span class="fs16 fw-400">Приложение IOS</span></label
+          >
+        </div>
+        <div class="row justify-content-center">
+          <a href="" class="fs16 lh-19 pt12 pr40 pb12 pl40 br-15 bg-blue-6 br-c-blue hc-blue-6 hbg-white focus-bg-blue-6 focus-c-white-2 focus-box-shadow-blue transition-color transition-bg br-c-blue b-2 br-5-blue c-white-2 fw-600">Применить</a>
+        </div>
+      </aside>
+
+      <div class="col-12 df fld-c justify-content-center lg-db col-md-9 lg-mxw-925 sm-pl32 sm-pr32 pr0 pl0 pb32">
+        <div class="row mx-0 sm-fld-r fld-c sm-justify-content-between sm-align-items-center pb24 sm-pb32">
+          <div class="df lg-db gap-29 align-items-center sm-pb0 pb24">
+            <button class="md-dn db b-0 bg-tra" id="filterBurger"><img src="assets/images/services/options.svg" alt="" /></button>
+            <span class="fw-700 fs18 c-blue-6 db">12 сервисов</span>
+          </div>
+          <div class="pr after-array hover-transform-array transition-transform-after sm-pb0 pb16">
+            <select name="category" id="categorySelect" class="w-100 sm-w-264 lg-w-400 focus-outline-none appearance-none fs16 fw-400 pt12 pb12 pl16 pr16 br-10 br-c-blue b-1 db col-12">
+              <option selected>Сначала высокий рейтинг</option>
+              <option value="safety">Сначала низкий рейтинг</option>
+              <option value="seo">Сначала самые новые</option>
+              <option value="analytics">Сначала самые старые</option>
+            </select>
+          </div>
+          <div class="pr">
+            <input placeholder="Поиск" class="appearance-none focus-outline-none br-10 pt13-5 pb13-5 pr16 pl16 b-1 w-100 sm-w-192 lg-w-300 db br-c-blue placeholder-grey pr after-search fs14 fw-400 plaseholder-fs14 placeholder-fw-400" />
+            <button class="db right-11 top-8 pa bg-tra p0 b-0 w-16 h-16"><img class="w-16 h-16" src="assets/images/services-page/search.svg" alt="" /></button>
+          </div>
+        </div>
+
+        <div class="row mx-0 gap-24 pb32">
+          <article class="box-shadow br-10 p12 sm-p24 w-100 pr">
+            <div class="row mx-0 align-items-start gap-8 sm-gap-20 pb24 flex-nowrap">
+              <img class="db h-90 sm-h-auto w-100px sm-w-auto obj-fit-cov" src="assets/images/services-page/app.svg" alt="" />
+              <div class="row mx-0 justify-content-between align-items-start w-100 lg-mxw-700">
+                <div class="df fld-c align-items-start gap-4 sm-gap-12">
+                  <span class="db c-blue-6 fw-600 fs18 sm-fs24">Start app</span>
+                  <div class="df gap-4">
+                    <img src="assets/images/active-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                    <img src="assets/images/active-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                    <img src="assets/images/active-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                    <img src="assets/images/active-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                    <img src="assets/images/disable-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                  </div>
+                  <span class="db sm-dn fw-600 fs18 c-blue-6 tar pt8">от 1 688₽/месяц</span>
+                </div>
+                <div class="db sm-df fld-c align-items-end gap-20">
+                  <span class="dn sm-db fw-600 fs24 c-blue-6 tar">от 1 688₽/месяц</span>
+                  <img src="assets/images/services-page/heart.svg" alt="" class="db sm-ps pa right-16 top-17" />
+                </div>
+              </div>
+            </div>
+            <p class="pb8 sm-pb12 fs16 fw-400 db">Мобильная рекламная платформа для разработчиков с системой вознаграждения пользователей за использование фирменного SDK.</p>
+            <span class="before-circle fs16 fw-400 pb16 sm-pb32 db pr">Бесплатный пробный период</span>
+            <div class="row mx-0 justify-content-start align-items-start sm-align-items-center fld-r gap-6 flex-nowrap sm-gap-36">
+              <a href="card.html" class="fs16 pt12 pr32 sm-pr40 pb12 pl32 sm-pl40 br-15 bg-blue-6 br-c-blue hc-blue-6 hbg-white focus-bg-blue-6 focus-c-white-2 focus-box-shadow-blue transition-color transition-bg br-c-blue b-2 br-5-blue c-white-2 fw-600">Сайт</a>
+              <a href="" class="white-space-nowrap b-2 br-15 br-5-blue pt12 pr32 sm-pr40 pb12 pl32 sm-pl40 fs16 lh19 fw-600 c-blue-6 bg-white hc-white-2 hbg-blue-6 focus-box-shadow-blue focus-bg-blue-6 focus-c-white-2 transition-bg transition-color">Сравнить цены</a>
+            </div>
+          </article>
+
+          <article class="box-shadow br-10 p12 sm-p24 w-100 pr">
+            <div class="row mx-0 align-items-start gap-8 sm-gap-20 pb24 flex-nowrap">
+              <img class="db h-90 sm-h-auto w-100px sm-w-auto obj-fit-cov" src="assets/images/services-page/app.svg" alt="" />
+              <div class="row mx-0 justify-content-between align-items-start w-100 lg-mxw-700">
+                <div class="df fld-c align-items-start gap-4 sm-gap-12">
+                  <span class="db c-blue-6 fw-600 fs18 sm-fs24">Start app</span>
+                  <div class="df gap-4">
+                    <img src="assets/images/active-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                    <img src="assets/images/active-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                    <img src="assets/images/active-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                    <img src="assets/images/active-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                    <img src="assets/images/disable-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                  </div>
+                  <span class="db sm-dn fw-600 fs18 c-blue-6 tar pt8">от 1 688₽/месяц</span>
+                </div>
+                <div class="db sm-df fld-c align-items-end gap-20">
+                  <span class="dn sm-db fw-600 fs24 c-blue-6 tar">от 1 688₽/месяц</span>
+                  <img src="assets/images/services-page/heart.svg" alt="" class="db sm-ps pa right-16 top-17" />
+                </div>
+              </div>
+            </div>
+            <p class="pb8 sm-pb12 fs16 fw-400 db">Мобильная рекламная платформа для разработчиков с системой вознаграждения пользователей за использование фирменного SDK.</p>
+            <span class="before-circle fs16 fw-400 pb16 sm-pb32 db pr">Бесплатный пробный период</span>
+            <div class="row mx-0 justify-content-start align-items-start sm-align-items-center fld-r gap-6 flex-nowrap sm-gap-36">
+              <a href="card.html" class="fs16 pt12 pr32 sm-pr40 pb12 pl32 sm-pl40 br-15 bg-blue-6 br-c-blue hc-blue-6 hbg-white focus-bg-blue-6 focus-c-white-2 focus-box-shadow-blue transition-color transition-bg br-c-blue b-2 br-5-blue c-white-2 fw-600">Сайт</a>
+              <a href="" class="white-space-nowrap b-2 br-15 br-5-blue pt12 pr32 sm-pr40 pb12 pl32 sm-pl40 fs16 lh19 fw-600 c-blue-6 bg-white hc-white-2 hbg-blue-6 focus-box-shadow-blue focus-bg-blue-6 focus-c-white-2 transition-bg transition-color">Сравнить цены</a>
+            </div>
+          </article>
+
+          <article class="box-shadow br-10 p12 sm-p24 w-100 pr">
+            <div class="row mx-0 align-items-start gap-8 sm-gap-20 pb24 flex-nowrap">
+              <img class="db h-90 sm-h-auto w-100px sm-w-auto obj-fit-cov" src="assets/images/services-page/app.svg" alt="" />
+              <div class="row mx-0 justify-content-between align-items-start w-100 lg-mxw-700">
+                <div class="df fld-c align-items-start gap-4 sm-gap-12">
+                  <span class="db c-blue-6 fw-600 fs18 sm-fs24">Start app</span>
+                  <div class="df gap-4">
+                    <img src="assets/images/active-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                    <img src="assets/images/active-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                    <img src="assets/images/active-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                    <img src="assets/images/active-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                    <img src="assets/images/disable-star.svg" alt="" class="w-12 h-12 sm-w-20 sm-h-20" />
+                  </div>
+                  <span class="db sm-dn fw-600 fs18 c-blue-6 tar pt8">от 1 688₽/месяц</span>
+                </div>
+                <div class="db sm-df fld-c align-items-end gap-20">
+                  <span class="dn sm-db fw-600 fs24 c-blue-6 tar">от 1 688₽/месяц</span>
+                  <img src="assets/images/services-page/heart.svg" alt="" class="db sm-ps pa right-16 top-17" />
+                </div>
+              </div>
+            </div>
+            <p class="pb8 sm-pb12 fs16 fw-400 db">Мобильная рекламная платформа для разработчиков с системой вознаграждения пользователей за использование фирменного SDK.</p>
+            <span class="before-circle fs16 fw-400 pb16 sm-pb32 db pr">Бесплатный пробный период</span>
+            <div class="row mx-0 justify-content-start align-items-start sm-align-items-center fld-r gap-6 flex-nowrap sm-gap-36">
+              <a href="card.html" class="fs16 pt12 pr32 sm-pr40 pb12 pl32 sm-pl40 br-15 bg-blue-6 br-c-blue hc-blue-6 hbg-white focus-bg-blue-6 focus-c-white-2 focus-box-shadow-blue transition-color transition-bg br-c-blue b-2 br-5-blue c-white-2 fw-600">Сайт</a>
+              <a href="" class="white-space-nowrap b-2 br-15 br-5-blue pt12 pr32 sm-pr40 pb12 pl32 sm-pl40 fs16 lh19 fw-600 c-blue-6 bg-white hc-white-2 hbg-blue-6 focus-box-shadow-blue focus-bg-blue-6 focus-c-white-2 transition-bg transition-color">Сравнить цены</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="row no-gutters mxw-820 justify-content-between container pr0 pl0">
+          <button class="bg-lblue-6 w-44 h-44 sm-w-48 sm-h-48 df justify-content-center align-items-center b-0 br-5 focus-box-shadow-lblue"><img src="assets/images/pagination-arrow.svg" alt="" /></button>
+          <div class="row no-gutters gap-4">
+            <button class="w-44 h-44 sm-w-48 sm-h-48 b-1 br-5 br-c-grey df align-items-center justify-content-center bg-white"><span class="fs16 fw-500 ff-montserrat">1</span></button>
+            <button class="w-44 h-44 sm-w-48 sm-h-48 br-5 df align-items-center justify-content-center bg-white b-0"><span class="fs16 fw-500 ff-montserrat c-blue-6">2</span></button>
+            <div class="gap-4 sm-df dn">
+              <button class="w-44 h-44 sm-w-48 sm-h-48 br-5 df align-items-center justify-content-center bg-white b-0"><span class="fs16 fw-500 ff-montserrat c-blue-6">3</span></button>
+              <button class="w-44 h-44 sm-w-48 sm-h-48 br-5 df align-items-center justify-content-center bg-white b-0"><span class="fs16 fw-500 ff-montserrat c-blue-6">4</span></button>
+              <button class="w-44 h-44 sm-w-48 sm-h-48 br-5 df align-items-center justify-content-center bg-white b-0"><span class="fs16 fw-500 ff-montserrat c-blue-6">5</span></button>
+            </div>
+            <button class="w-44 h-44 sm-w-48 sm-h-48 br-5 df align-items-center justify-content-center bg-white b-0"><span class="fs16 fw-500 ff-montserrat c-blue-6">...</span></button>
+            <button class="w-44 h-44 sm-w-48 sm-h-48 br-5 df align-items-center justify-content-center bg-white b-0"><span class="fs16 fw-500 ff-montserrat c-blue-6">22</span></button>
+            <button class="sm-df dn w-44 h-44 sm-w-48 sm-h-48 br-5 align-items-center justify-content-center bg-white b-0"><span class="fs16 fw-500 ff-montserrat c-blue-6">23</span></button>
+          </div>
+          <button class="bg-lblue-6 w-44 h-44 sm-w-48 sm-h-48 df justify-content-center align-items-center b-0 br-5 focus-box-shadow-lblue"><img class="transorm-rotate" src="assets/images/pagination-arrow.svg" alt="" /></button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-grey-6 lg-pb110">
+      <div class="container pr0 pl0 pt55 row justify-content-between dn lg-df">
+        <div class="col-4 mxw-250 md-nopad">
+          <h4 class="fs18 fw-600 pb16 db c-white">Навигация по сайту</h4>
+          <nav class="pb90">
+            <ul class="df fld-c gap-12">
+              <li><a href="index.html" class="fs16 fw-400 c-white">Главная</a></li>
+              <li><a href="categories.html" class="fs16 fw-400 c-white">Категории</a></li>
+              <li><a href="top.html" class="fs16 fw-400 c-white">Топы</a></li>
+            </ul>
+          </nav>
+
+          <div>
+            <h3 class="db fs20 fw-600 pb4 c-white">Анастасия Шенкарюк</h3>
+            <span class="db fs16 fw-400 pb12 c-white">Автор, веб-дизайнер, модель</span>
+            <div class="df gap-40">
+              <a href=""><img src="assets/images/footer/instagram.svg" alt="" /></a>
+              <a href=""><img src="assets/images/footer/dribble.svg" alt="" /></a>
+              <a href=""><img src="assets/images/footer/telegram.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 mxw-350 md-nopad">
+          <h4 class="fs18 fw-600 pb16 db c-white">Политика конфиденциальности</h4>
+          <nav class="pb90">
+            <ul class="df fld-c gap-12">
+              <li><a href="" class="fs16 fw-400 c-white">Политика обработки персональных данных</a></li>
+              <li><a href="" class="fs16 fw-400 c-white">Публичная оферта</a></li>
+              <li><a href="" class="fs16 fw-400 c-white">Соглашением об использование cookies</a></li>
+            </ul>
+          </nav>
+
+          <div>
+            <h3 class="db fs20 fw-600 pb4 c-white">Евгений Недодаев</h3>
+            <span class="db fs16 fw-400 pb12 c-white">Автор, веб-разработчик, модель</span>
+            <div class="df gap-40">
+              <a href=""><img src="assets/images/footer/telegram.svg" alt="" /></a>
+              <a href=""><img src="assets/images/footer/whatsapp.svg" alt="" /></a>
+              <a href=""><img src="assets/images/footer/vk.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mxw-250 md-nopad">
+          <img src="assets/images/logo.svg" alt="" class="pb16" />
+          <h4 class="fs18 fw-600 pb16 db c-white">Связаться с нами</h4>
+          <a href="mailto:yuksjdgenr@mail.ru" class="df justify-content-start pb16 gap-18">
+            <img src="assets/images/footer/mail.svg" alt="" />
+            <span class="fs18 fw-600 c-white">yuksjdgenr@mail.ru</span>
+          </a>
+          <a href="tel:+7(958)587-85-98" class="df justify-content-start pb30 gap-18">
+            <img src="assets/images/footer/phone.svg" alt="" />
+            <span class="fs18 fw-600 c-white">+7 (958) 587-85-98</span>
+          </a>
+
+          <div class="df gap-56 pb40">
+            <a href=""><img src="assets/images/footer/telegram.svg" alt="" /></a>
+            <a href=""><img src="assets/images/footer/whatsapp.svg" alt="" /></a>
+            <a href=""><img src="assets/images/footer/vk.svg" alt="" /></a>
+          </div>
+
+          <a href="" class="fs16 lh-19 pt12 pr40 pb12 pl40 br-15 bg-blue-6 br-c-blue hc-blue-6 hbg-white focus-bg-blue-6 focus-c-white-2 focus-box-shadow-blue transition-color transition-bg br-c-blue b-2 br-c-blue c-white-2 fw-600">Написать</a>
+        </div>
+      </div>
+
+      <div class="container db lg-dn pl20 pr20 pt32 sm-pt40 pb40 sm-pl32 sm-pr32">
+        <div class="accordion pb24">
+          <div class="row no-gutters align-items-center justify-content-between w-100">
+            <div class="row align-items-center gap-4 sm-gap-24 no-gutters">
+              <h3 class="sm-fs18 fs16 fw-600 c-white">Политика конфиденциальности</h3>
+            </div>
+            <button class="accordionButton db b-0 bg-grey-6"><img class="transition-transform" src="assets/images/footer/white-arrow.svg" alt="" /></button>
+          </div>
+          <ul class="accordionInner pt12 sm-pt24 dn mxh-0 transition-mxh">
+            <li class="pb10 db"><a class="fs14 sm-fs16 fw-400 c-white" href="">Политика обработки персональных данных</a></li>
+            <li class="pb10 db"><a class="fs14 sm-fs16 fw-400 c-white" href="">Публичная оферта</a></li>
+            <li class="pb10 db"><a class="fs14 sm-fs16 fw-400 c-white" href="">Соглашением об использование cookies</a></li>
+          </ul>
+        </div>
+        <div class="accordion pb24">
+          <div class="row no-gutters align-items-center justify-content-between w-100">
+            <div class="row align-items-center gap-4 sm-gap-24 no-gutters">
+              <h3 class="sm-fs18 fs16 fw-600 c-white">Навигация по сайту</h3>
+            </div>
+            <button class="accordionButton db b-0 bg-grey-6"><img class="transition-transform" src="assets/images/footer/white-arrow.svg" alt="" /></button>
+          </div>
+          <ul class="accordionInner pt12 sm-pt24 dn mxh-0 transition-mxh">
+            <li class="pb10 db"><a class="fs14 sm-fs16 fw-400 c-white" href="index.html">Главная</a></li>
+            <li class="pb10 db"><a class="fs14 sm-fs16 fw-400 c-white" href="categories.html">Категории</a></li>
+            <li class="pb10 db"><a class="fs14 sm-fs16 fw-400 c-white" href="top.html">Топы</a></li>
+          </ul>
+        </div>
+        <div class="accordion pb24">
+          <div class="row no-gutters align-items-center justify-content-between w-100">
+            <div class="row align-items-center gap-4 sm-gap-24 no-gutters">
+              <h3 class="sm-fs18 fs16 fw-600 c-white">Связаться с нами</h3>
+            </div>
+            <button class="accordionButton db b-0 bg-grey-6"><img class="transition-transform" src="assets/images/footer/white-arrow.svg" alt="" /></button>
+          </div>
+          <ul class="accordionInner pt12 sm-pt24 dn mxh-0 transition-mxh">
+            <li class="pb10 db"><a class="fs14 sm-fs16 fw-400 c-white" href="mailto:yuksjdgenr@mail.ru">yuksjdgenr@mail.ru</a></li>
+            <li class="pb10 db"><a class="fs14 sm-fs16 fw-400 c-white" href="tel:+7(958)587-85-98">+7 (958) 587-85-98</a></li>
+          </ul>
+        </div>
+
+        <div class="df justify-content-between align-items-center sm-fld-r fld-c pt48 sm-gap-0 gap-40">
+          <img src="assets/images/logo.svg" alt="" class="db sm-order-1 order-3" />
+
+          <div class="sm-order-2 order-1">
+            <h3 class="db fs20 fw-600 pb12 sm-pb4 c-white sm-tal tac">Евгений Недодаев</h3>
+            <span class="db fs16 fw-400 pb20 sm-pb12 c-white sm-tal tac">Автор, веб-разработчик, модель</span>
+            <div class="df gap-40 justify-content-center">
+              <a href=""><img src="assets/images/footer/telegram.svg" alt="" /></a>
+              <a href=""><img src="assets/images/footer/whatsapp.svg" alt="" /></a>
+              <a href=""><img src="assets/images/footer/vk.svg" alt="" /></a>
+            </div>
+          </div>
+
+          <div class="sm-order-3 order-2">
+            <h3 class="db fs20 fw-600 pb12 sm-pb4 c-white sm-tal tac">Анастасия Шенкарюк</h3>
+            <span class="db fs16 fw-400 pb20 sm-pb12 c-white sm-tal tac">Автор, веб-дизайнер, модель</span>
+            <div class="df gap-40 justify-content-center">
+              <a href=""><img src="assets/images/footer/instagram.svg" alt="" /></a>
+              <a href=""><img src="assets/images/footer/dribble.svg" alt="" /></a>
+              <a href=""><img src="assets/images/footer/telegram.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
